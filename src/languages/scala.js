@@ -31,6 +31,12 @@ function(hljs) {
         }],
         relevance: 10
       },
+      {
+        className: "type",
+        begin: "\\[",
+        end: "\\]",
+        relevance: 10
+      },
       hljs.C_LINE_COMMENT_MODE, hljs.C_BLOCK_COMMENT_MODE,
       STRING, hljs.QUOTE_STRING_MODE,
       SYMBOL,
